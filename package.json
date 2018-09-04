@@ -1,0 +1,20 @@
+{
+  "name": "nomlnoml-example",
+  "version": "0.0.1",
+  "description": "nomlnoml-example",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify app.js > bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dagre": "0.4.6",
+    "lodash": "3.7.0",
+    "nomnoml": "0.2.0"
+  },
+  "devDependencies": {
+    "browserify": "16.2.2"    
+  }
+}
