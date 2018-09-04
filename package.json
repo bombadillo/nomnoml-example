@@ -5,7 +5,8 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "browserify app.js > bundle.js"
+    "build": "browserify src/js/app.js > dist/bundle.js",
+    "dev": "watch \"npm run build\" src"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +16,7 @@
     "nomnoml": "0.2.0"
   },
   "devDependencies": {
-    "browserify": "16.2.2"    
+    "browserify": "16.2.2",
+    "watch": "1.0.2"
   }
 }
