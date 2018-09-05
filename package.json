@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "browserify src/js/app.js > dist/bundle.js",
-    "dev": "watch \"npm run build\" src"
+    "dev": "watch \"npm run build\" src",
+    "postinstall": "if not exist dist mkdir dist"
   },
   "author": "",
   "license": "ISC",
